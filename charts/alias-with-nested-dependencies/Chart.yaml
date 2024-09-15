@@ -1,0 +1,13 @@
+apiVersion: v2
+name: my-chart-with-nested-dependencies
+version: 1.0.0
+appVersion: 1.0.0
+dependencies:
+  - name: postgresql
+    alias: psql-14
+    repository: https://charts.bitnami.com/bitnami
+    version: 14.x.x
+  - name: postgresql
+    alias: psql-13
+    repository: https://charts.bitnami.com/bitnami
+    version: 13.x.x

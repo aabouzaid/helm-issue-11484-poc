@@ -1,0 +1,9 @@
+dependencies:
+- name: collabora-code
+  repository: https://chrisingenhaag.github.io/helm
+  version: 2.6.0
+- name: collabora-code
+  repository: https://chrisingenhaag.github.io/helm
+  version: 2.0.0
+digest: sha256:2d4855166423908bfe7b4c7ba39849fd6276b30a8d0797ade82a3106dc6ca2e6
+generated: "2024-09-15T20:24:15.199140761+02:00"

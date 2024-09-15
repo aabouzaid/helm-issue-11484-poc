@@ -1,0 +1,13 @@
+apiVersion: v2
+name: my-chart-without-nested-dependencies
+version: 1.0.0
+appVersion: 1.0.0
+dependencies:
+  - name: collabora-code
+    alias: cc-2-6
+    repository: https://chrisingenhaag.github.io/helm
+    version: 2.6.0
+  - name: collabora-code
+    alias: cc-2-0
+    repository: https://chrisingenhaag.github.io/helm
+    version: 2.0.0
